@@ -1,28 +1,25 @@
+const dns = require("dns");
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
+
 const mongoose = require("mongoose");
-const initData = require("./data.js");
-const  Listing = require("../models/listing.js");
+const Listing = require("../models/listing.js");
 
-const MONGO_URL ="mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL =
+  "mongodb+srv://tejaslabhade2_db_user:Tejas123@cluster0.uuie24p.mongodb.net/?appName=Cluster0";
 
-main()
-    .then(()=>{
-        console.log("connected to DB");
-    })
-    .catch((err)=>{
-        console.log(err);
-    });
+async function main() {
+  await mongoose.connect(MONGO_URL);
+  console.log("Connected to DB");
 
-async function main(){
-    await mongoose.connect(MONGO_URL);
+  // Delete all existing listings
+  await Listing.deleteMany({});
+
+  console.log("All existing listings deleted successfully");
+
+  await mongoose.connection.close();
+  console.log("Database connection closed");
 }
 
-const initDB = async ()=>{
-    await Listing.deleteMany({});
-    initData.data = initData.data.map((obj)=>({
-        ...obj,
-        owner: "6a7f29b7d0923b8638186389",
-    }));
-    await Listing.insertMany(initData.data);
-    console.log("data was initialized");
-};
-initDB();
+main().catch((err) => {
+  console.log("Error:", err);
+});
