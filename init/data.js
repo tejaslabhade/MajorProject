@@ -350,3 +350,165 @@ const sampleListings = [
 ];
 
 module.exports = { data: sampleListings };
+
+
+
+// [
+//   {
+//     username: "Rahul Kumar",
+//     email: "rahul123@gmail.com",
+//     password: "rahul123",
+//   },
+//   {
+//     username: "Amit Patel",
+//     email: "amit123@gmail.com",
+//     password: "amit123",
+//   },
+//   {
+//     username: "Sneha Deshmukh",
+//     email: "sneha123@gmail.com",
+//     password: "sneha123",
+//   },
+//   {
+//     username: "Daniel Wilson",
+//     email: "daniel123@gmail.com",
+//     password: "daniel123",
+//   },
+//   {
+//     username: "Priya Kulkarni",
+//     email: "priya123@gmail.com",
+//     password: "priya123",
+//   },
+//   {
+//     username: "James Anderson",
+//     email: "james123@gmail.com",
+//     password: "james123",
+//   },
+//   {
+//     username: "Rohan Mehta",
+//     email: "rohan123@gmail.com",
+//     password: "rohan123",
+//   },
+//   {
+//     username: "Emily Brown",
+//     email: "emily123@gmail.com",
+//     password: "emily123",
+//   },
+//   {
+//     username: "Arjun Joshi",
+//     email: "arjun123@gmail.com",
+//     password: "arjun123",
+//   },
+//   {
+//     username: "Sophia Miller",
+//     email: "sophia123@gmail.com",
+//     password: "sophia123",
+//   },
+//   {
+//     username: "Vikram Singh",
+//     email: "vikram123@gmail.com",
+//     password: "vikram123",
+//   },
+//   {
+//     username: "Olivia Davis",
+//     email: "olivia123@gmail.com",
+//     password: "olivia123",
+//   },
+//   {
+//     username: "Neha Patil",
+//     email: "neha123@gmail.com",
+//     password: "neha123",
+//   },
+//   {
+//     username: "Michael Johnson",
+//     email: "michael123@gmail.com",
+//     password: "michael123",
+//   },
+//   {
+//     username: "Karan Shah",
+//     email: "karan123@gmail.com",
+//     password: "karan123",
+//   },
+//   {
+//     username: "Emma Williams",
+//     email: "emma123@gmail.com",
+//     password: "emma123",
+//   },
+//   {
+//     username: "Aditya Desai",
+//     email: "aditya123@gmail.com",
+//     password: "aditya123",
+//   },
+//   {
+//     username: "Lucas Martin",
+//     email: "lucas123@gmail.com",
+//     password: "lucas123",
+//   },
+//   {
+//     username: "Pooja More",
+//     email: "pooja123@gmail.com",
+//     password: "pooja123",
+//   },
+//   {
+//     username: "Ethan Taylor",
+//     email: "ethan123@gmail.com",
+//     password: "ethan123",
+//   },
+//   {
+//     username: "Snehal Pawar",
+//     email: "snehal123@gmail.com",
+//     password: "snehal123",
+//   },
+//   {
+//     username: "David Clark",
+//     email: "david123@gmail.com",
+//     password: "david123",
+//   },
+//   {
+//     username: "Ananya Rao",
+//     email: "ananya123@gmail.com",
+//     password: "ananya123",
+//   },
+//   {
+//     username: "Chris Wilson",
+//     email: "chris123@gmail.com",
+//     password: "chris123",
+//   },
+//   {
+//     username: "Manish Gupta",
+//     email: "manish123@gmail.com",
+//     password: "manish123",
+//   },
+//   {
+//   username: "Sahil Verma",
+//   email: "sahil123@gmail.com",
+//   password: "sahil123",
+//   },
+//   {
+//     username: "Kavya Nair",
+//     email: "kavya123@gmail.com",
+//     password: "kavya123",
+//   },
+//   {
+//     username: "Ritesh Sharma",
+//     email: "ritesh123@gmail.com",
+//     password: "ritesh123",
+//   },
+//   {
+//     username: "Isha Kapoor",
+//     email: "isha123@gmail.com",
+//     password: "isha123",
+//   },
+//   {
+//     username: "Akash Thakur",
+//     email: "akash123@gmail.com",
+//     password: "akash123",
+//   },
+//   {
+//     username: "Nikhil Yadav",
+//     email: "nikhil123@gmail.com",
+//     password: "nikhil123",
+//   },
+// ]
+
+
