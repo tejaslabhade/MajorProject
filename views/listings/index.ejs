@@ -198,4 +198,24 @@
             listingContent.style.marginTop = "";
         });
     </script>
+    <script>
+        const filters = document.querySelectorAll(".filter");
+
+        filters.forEach(filter => {
+            filter.addEventListener("click", function (event) {
+
+                const currentSearch =
+                    new URLSearchParams(window.location.search).get("search");
+
+                if (currentSearch) {
+                    const category =
+                        new URL(this.href).searchParams.get("category");
+
+                    this.href =
+                        `/listings?search=${encodeURIComponent(currentSearch)}&category=${encodeURIComponent(category)}`;
+                }
+
+            });
+        });
+    </script>
         
